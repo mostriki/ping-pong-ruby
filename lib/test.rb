@@ -1,4 +1,4 @@
 require('./ping_pong.rb')
 
-input = Integer(ARGV[0])
+input = ARGV[0].to_i
 puts input.pong
